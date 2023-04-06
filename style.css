@@ -14,7 +14,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
 }
 
 #container {
@@ -26,6 +25,13 @@ body {
     height: 150px;
     width: 250px;
     box-shadow: 0 15px 25px rgba(0 , 0, 0, 0.15);
+    animation-name: animation-in;
+    animation-duration: 1s;
+}
+
+@keyframes animation-in {
+    from {margin-top: 1400px;}
+    to {margin-top: none;}
 }
 
 
