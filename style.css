@@ -10,7 +10,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-color: rgb(195, 236, 212);
+    background-color: rgb(195, 228, 236);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ body {
     position: relative;
     background-color: white;
     padding: 50px;
-    border: 5px solid rgba(85, 151, 112, 0.61);
+    border: 5px solid rgb(150, 175, 182);
     border-radius: 1rem;
     height: 190px;
     width: 320px;
@@ -43,15 +43,15 @@ body {
     border-radius: 10px;
     text-align: center;
     font-size: 16px;
-    background-color: #e9e9ed4d;
-    outline: rgb(204, 179, 214);
+    background-color: #b6b6c552;
+    outline: rgb(83, 78, 85);
 
 }
 
     #input-container input:hover, input:focus {
         padding: 13px 6px 13px 25.5px;
         margin: 5.5px 0 5.5px 0;
-        background-color: #e9e9ed86;
+        background-color: #cfcfdbb2;
     }
 
 #button-area {
